@@ -13,6 +13,8 @@ import torch.nn.functional as F
 # utils
 torch.set_default_tensor_type('torch.cuda.HalfTensor')
 
+print('test git')
+
 def display_gpu_mem():
   print(torch.cuda.get_device_properties(0).total_memory)
 
